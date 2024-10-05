@@ -48,7 +48,7 @@ main {
     background-color: #fff;
     height: auto;
     border-bottom-left-radius: 50px;
-    background-image: url('./header.png');
+    background-image: url('./images/header.png');
     background-repeat: no-repeat;
     padding-left: 24px;
 }
@@ -88,3 +88,131 @@ main {
     margin-left: 0px;
     padding-left: 0px;
 }
+.work-section {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    width: 375px;
+    height: 2788px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: auto;
+    width: auto;
+    justify-items: center;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 15px;
+    border: 20px solid white;
+    margin-top: 150px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 0 2px #a7aeef;
+  }
+  
+  .img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .img img {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .card-details h1 {
+    font-size: 7.2vw;
+    font-weight: 700;
+    height: auto;
+    width: auto;
+    align-self: flex-start;
+    color: #172b4d;
+    margin: 0;
+  }
+  
+  .techs {
+    display: flex;
+    justify-content: space-between;
+    width: 236px;
+    height: 32px;
+    padding-top: 10px;
+  }
+  
+  .tech-item {
+    font-size: 3.7vw;
+    font-weight: 600;
+    margin-left: 2%;
+    color: #7a869a;
+  }
+  
+  .no-margin {
+    margin-left: 0;
+    color: #344563;
+  }
+  
+  .techs img {
+    margin-left: 2%;
+  }
+  
+  .card-details p {
+    font-size: 3.8vw;
+    font-weight: 500;
+    margin-top: 0;
+    color: #344563;
+  }
+  
+  .card-details ul {
+    display: flex;
+    align-self: flex-start;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .lang-list {
+    align-self: flex-start;
+    background-color: #ebebff;
+    border-radius: 8px;
+    font-size: 3vw;
+    padding: 5px 10px;
+    color: #6070ff;
+    font-weight: 500;
+  }
+  
+  .margin {
+    margin-left: 5%;
+  }
+  
+  .project {
+display: flex;
+justify-content: center;
+align-items:center;
+font-family: Poppins;
+font-size: 17px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: center;
+width:  126px;
+height:  45px;
+top: 12px;
+padding: 12px,0px;
+gap: 10px;
+border-radius: 8px ;
+border: 2px solid #6070FF;
+color: #396DF2;
+background-color: white;
+  }  
+ .counter{ 
+    width: 8px;
+    height:8px;
+    padding-top: 7px;
+  }
