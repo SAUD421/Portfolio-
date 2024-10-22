@@ -124,7 +124,7 @@ main {
   }
   
   .card-details h1 {
-    font-size: 7.2vw;
+    font-size: 32px;
     font-weight: 700;
     height: auto;
     width: auto;
@@ -142,7 +142,7 @@ main {
   }
   
   .tech-item {
-    font-size: 3.7vw;
+    font-size: 13px;
     font-weight: 600;
     margin-left: 2%;
     color: #7a869a;
@@ -158,8 +158,8 @@ main {
   }
   
   .card-details p {
-    font-size: 3.8vw;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
     margin-top: 0;
     color: #344563;
   }
@@ -175,7 +175,7 @@ main {
     align-self: flex-start;
     background-color: #ebebff;
     border-radius: 8px;
-    font-size: 3vw;
+    font-size: 0.9rem;
     padding: 5px 10px;
     color: #6070ff;
     font-weight: 500;
