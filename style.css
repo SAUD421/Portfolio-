@@ -199,6 +199,15 @@
   text-align: center;
   color: #396DF2;
 }
+.proj-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.proj-button:active{
+  background-color: #2230d2;
+  color: #fff;
+}
 
 .snap2 {
   background-image: url(./images/Snapshoot2.png);
