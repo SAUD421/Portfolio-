@@ -5,14 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
     <header>
-    <nav class="container">
+        <nav class="container">
             <h2 class="logo">My Logo </h2>  
-            <img src="./images/Menu.svg" class="menu" alt="Menu Bar">
-    </nav>
-        </header>
+            <!-- Add id="menu-icon" to the img element -->
+            <img src="./images/Menu.svg" class="menu" id="menu-icon" alt="Menu Bar">
+        </nav>
+    </header>
+    
+    <!-- Mobile menu structure (needs to be included in the HTML) -->
+    <div class="mobile-menu" id="mobile-menu" style="display: none;">
+        <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <img src="./images/ector.png" class="close-icon" id="close-icon" alt="Close Menu">
+    </div>
+    
+
+
+    
 
     <main>
         <section class="headLine">
@@ -200,5 +216,6 @@
         
 
     </main>
+   <script src="./index.js"></script>
 </body>
 </html>

@@ -358,3 +358,69 @@ background-color: white;
   border-radius: 10px;
   margin: 2% 0;
 }
+/* Mobile menu styling */
+#mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #6070FF;
+  z-index: 9999; /* Ensures the menu stays on top */
+  color: white;
+  text-align: left;
+  padding: 30px;
+}
+
+#mobile-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #6070FF;
+}
+
+#mobile-menu ul li {
+  margin: 20px 0;
+  margin-left: 50px;
+  background-color: #6070FF;
+}
+
+#mobile-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Close icon styling */
+
+#close-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+/* Add any hover effect you like */
+#mobile-menu ul li a:hover {
+  color: #f36b7f; /* Example hover effect */
+}
+
+/* Menu Icon for small screens */
+#menu-icon {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.close-icon {
+  width: 30px;  /* Set a reasonable width */
+  height: 30px; /* Set a reasonable height */
+  display: block;  /* Ensure it's visible */
+  margin: 1rem auto; /* Center the icon */
+  cursor: pointer;  /* Add a pointer cursor for clarity */
+}
+
